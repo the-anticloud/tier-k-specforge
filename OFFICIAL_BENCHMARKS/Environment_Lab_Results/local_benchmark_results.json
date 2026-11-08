@@ -1,0 +1,16 @@
+{
+  "project": "K_SPECFORGE",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "timestamp": "2026-10-01",
+  "benchmark_type": "local_static",
+  "bandit_high": 2,
+  "bandit_medium": 92,
+  "bandit_status": "fail",
+  "radon_cc_grade": "2.931781516478451",
+  "radon_cc_score": null,
+  "radon_mi_avg": null,
+  "python_files": 358,
+  "total_files": 950,
+  "python_loc": 53438,
+  "elapsed_s": 38.04
+}

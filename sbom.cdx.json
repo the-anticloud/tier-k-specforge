@@ -1,0 +1,207 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:dae25776-ed16-5374-a3b4-592438209487",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:01:35Z",
+    "component": {
+      "type": "application",
+      "name": "K_SPECFORGE",
+      "version": "3cb0510f0bd0",
+      "bom-ref": "pkg:generic/anticloud/K_SPECFORGE@3cb0510f0bd0",
+      "purl": "pkg:generic/anticloud/K_SPECFORGE@3cb0510f0bd0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "3cb0510f0bd0e8c195ac6e9c5c62f6b50580ff83"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/sgl-project/SpecForge.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "torch",
+      "version": "==2.13.0",
+      "purl": "pkg:pypi/torch@2.13.0",
+      "bom-ref": "pypi/torch@==2.13.0"
+    },
+    {
+      "type": "library",
+      "name": "transformers",
+      "version": "==5.12.1",
+      "purl": "pkg:pypi/transformers@5.12.1",
+      "bom-ref": "pypi/transformers@==5.12.1"
+    },
+    {
+      "type": "library",
+      "name": "datasets",
+      "version": "unspecified",
+      "purl": "pkg:pypi/datasets",
+      "bom-ref": "pypi/datasets@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tqdm",
+      "version": "unspecified",
+      "purl": "pkg:pypi/tqdm",
+      "bom-ref": "pypi/tqdm@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "accelerate",
+      "version": "unspecified",
+      "purl": "pkg:pypi/accelerate",
+      "bom-ref": "pypi/accelerate@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "click",
+      "version": ">=8.0",
+      "purl": "pkg:pypi/click@8.0",
+      "bom-ref": "pypi/click@>=8.0"
+    },
+    {
+      "type": "library",
+      "name": "huggingface-hub",
+      "version": "unspecified",
+      "purl": "pkg:pypi/huggingface-hub",
+      "bom-ref": "pypi/huggingface-hub@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/numpy",
+      "bom-ref": "pypi/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "openai-harmony",
+      "version": "unspecified",
+      "purl": "pkg:pypi/openai-harmony",
+      "bom-ref": "pypi/openai-harmony@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pydantic",
+      "bom-ref": "pypi/pydantic@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "psutil",
+      "version": "unspecified",
+      "purl": "pkg:pypi/psutil",
+      "bom-ref": "pypi/psutil@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pyyaml",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pyyaml",
+      "bom-ref": "pypi/pyyaml@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "safetensors",
+      "version": "unspecified",
+      "purl": "pkg:pypi/safetensors",
+      "bom-ref": "pypi/safetensors@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "sglang",
+      "version": "==0.5.18",
+      "purl": "pkg:pypi/sglang@0.5.18",
+      "bom-ref": "pypi/sglang@==0.5.18"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": "unspecified",
+      "purl": "pkg:pypi/requests",
+      "bom-ref": "pypi/requests@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tensorboard",
+      "version": "unspecified",
+      "purl": "pkg:pypi/tensorboard",
+      "bom-ref": "pypi/tensorboard@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "typing-extensions",
+      "version": "unspecified",
+      "purl": "pkg:pypi/typing-extensions",
+      "bom-ref": "pypi/typing-extensions@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "wandb",
+      "version": "unspecified",
+      "purl": "pkg:pypi/wandb",
+      "bom-ref": "pypi/wandb@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "yunchang",
+      "version": "unspecified",
+      "purl": "pkg:pypi/yunchang",
+      "bom-ref": "pypi/yunchang@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "echarts",
+      "version": "^6.1.0",
+      "purl": "pkg:npm/echarts@^6.1.0",
+      "bom-ref": "npm/echarts@^6.1.0"
+    },
+    {
+      "type": "library",
+      "name": "vue-echarts",
+      "version": "^8.3.0",
+      "purl": "pkg:npm/vue-echarts@^8.3.0",
+      "bom-ref": "npm/vue-echarts@^8.3.0"
+    },
+    {
+      "type": "library",
+      "name": "markdown-it-mathjax3",
+      "version": "^4.3.2",
+      "purl": "pkg:npm/markdown-it-mathjax3@^4.3.2",
+      "bom-ref": "npm/markdown-it-mathjax3@^4.3.2"
+    },
+    {
+      "type": "library",
+      "name": "vitepress",
+      "version": "^1.6.3",
+      "purl": "pkg:npm/vitepress@^1.6.3",
+      "bom-ref": "npm/vitepress@^1.6.3"
+    },
+    {
+      "type": "library",
+      "name": "vue",
+      "version": "^3.5.24",
+      "purl": "pkg:npm/vue@^3.5.24",
+      "bom-ref": "npm/vue@^3.5.24"
+    }
+  ]
+}

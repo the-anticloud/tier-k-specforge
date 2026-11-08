@@ -1,0 +1,47 @@
+{
+  "benchmark": "HELM_Lab_Results",
+  "project": "K_SPECFORGE",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "sgl-project/SpecForge",
+  "commit": "3cb0510f0bd0",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HELM \u2014 Stanford Holistic Evaluation of Language Models (proxy)",
+    "source": "https://github.com/stanford-crfm/helm",
+    "note": "Full HELM requires GPU. Proxy: consistency + latency across 3 deterministic runs.",
+    "input": "Project K_SPECFORGE provides 617 tracked files across ['Python', 'Shell'] with 98259 source lines.",
+    "runs": [
+      {
+        "seed": 0,
+        "label": "LABEL_0",
+        "score": 0.5308,
+        "latency_ms": 45.63
+      },
+      {
+        "seed": 1,
+        "label": "LABEL_0",
+        "score": 0.5308,
+        "latency_ms": 46.49
+      },
+      {
+        "seed": 2,
+        "label": "LABEL_0",
+        "score": 0.5308,
+        "latency_ms": 47.01
+      }
+    ],
+    "consistency": "PASS",
+    "avg_latency_ms": 46.38,
+    "status": "PASS",
+    "language_diversity": 3,
+    "primary_language": "Python",
+    "fairness_keywords_found": false
+  }
+}

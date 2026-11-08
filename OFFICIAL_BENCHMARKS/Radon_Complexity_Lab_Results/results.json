@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_SPECFORGE",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 4.938271604938271
+    },
+    "complexity_grade": "A",
+    "complexity_score": 4.938271604938271,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SPECFORGE\\UPSTREAM\\bench_domino_mfu.py\n    F 29:0 build - A (4)\n    F 85:0 bench - A (3)\n    F 74:0 make_inputs - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SPECFORGE\\UPSTREAM\\benchmarks\\bench_eagle3.py\n    F 179:0 main - C (11)\n    F 101:0 launch_sglang_server - B (8)\n    F 58:0 parse_args - A (1)\n    F 175:0 send_flush_cache_request - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SPECFORGE\\UPSTREAM\\scripts\\conversation_validation.py\n    F 11:0 validate_conversation - D (21)\n    F 6:0 has_think_marker - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SPECFORGE\\UPSTREAM\\scripts\\expand_reasoning_conversations.py\n    F 62:0 validate_conversation - C (13)\n    F 112:0 expand_row - B (10)\n    F 154:0 main - B (9)\n    F 42:0 validate_paths - B (7)\n    F 55:0 iter_jsonl - A (3)\n    F 36:0 skipped_path - A (2)\n    F 105:0 visible_history_message - A (2)\n    F 19:0 parse_args - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SPECFORGE\\UPSTREAM\\scripts\\merge_mtp_to_base.py\n    F 22:0 main - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SPECFORGE\\UPSTREAM\\scripts\\prepare_data.py\n    F 366:0 load_dataset_preset - D (23)\n    F 100:0 parse_args - B (6)\n    F 289:0 process_sciq_row - A (4)\n    F 511:0 _write_split - A (4)\n    F 531:0 process_and_save_dataset - A (4)\n    F 586:0 main - A (4)\n    F 145:0 process_ultrachat_row - A (3)\n    F 16",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SPECFORGE\\UPSTREAM\\bench_domino_mfu.py - A (58.78)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SPECFORGE\\UPSTREAM\\benchmarks\\bench_eagle3.py - A (61.91)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SPECFORGE\\UPSTREAM\\benchmarks\\__init__.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SPECFORGE\\UPSTREAM\\scripts\\conversation_validation.py - A (43.77)\nE:\\fenta\\Downloads\\The Anticloud\\T"
+  }
+}

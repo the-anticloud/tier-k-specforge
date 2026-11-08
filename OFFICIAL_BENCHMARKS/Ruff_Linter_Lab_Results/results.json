@@ -1,0 +1,20 @@
+{
+  "benchmark": "Ruff_Linter_Lab_Results",
+  "project": "K_SPECFORGE",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://docs.astral.sh/ruff/",
+  "results": {
+    "framework": "Ruff \u2014 Fast Python Linter (Astral)",
+    "source": "https://docs.astral.sh/ruff/",
+    "files_scanned": 10,
+    "total_issues": 55,
+    "top_issue_codes": {
+      "UP006": 21,
+      "UP035": 12,
+      "UP045": 4,
+      "F541": 4,
+      "C408": 3
+    },
+    "status": "FAIL"
+  }
+}

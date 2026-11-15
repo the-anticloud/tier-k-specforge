@@ -14,7 +14,7 @@
 
 `K_SPECFORGE` is a component of the Anticloud sovereign AI stack, operating in the inference agents, RAG pipelines, multi-agent orchestration, embeddings domain. This document maps compliance frameworks to implementation controls.
 
-## Verified Compliance (2026-Q3)
+## Compliance posture (self-assessment, 2026-Q3)
 
 | Framework | Coverage | Verification Method |
 |---|---|---|

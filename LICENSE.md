@@ -336,4 +336,4 @@ This document is a summary of licensing terms. In case of conflict, the full Apa
 Anticommons 0.1.0 — Lois-Kleinner Alpasan, Anticloud FZ LLE  
 Domain: 0-1.gg  
 License: Apache 2.0 (Dual: Open Source + Enterprise)  
-Patent Status: Patent Pending (USPTO)
+Patent Status: Prior art documented (USPTO provisional drafting in progress)
